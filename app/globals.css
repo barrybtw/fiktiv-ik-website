@@ -3,7 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* New theme for Fiktionel IK - warm beige/cream with dark accents */
 :root {
   --background: oklch(0.96 0.01 90);
   --foreground: oklch(0.15 0.02 60);

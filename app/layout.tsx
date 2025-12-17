@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "Fiktionel IK - Breddefodbold for alle",
   description:
     "Fiktionel IK er en bredde-fodboldforening med omkring 400 medlemmer. Find træningstider, holdinfo, kommende kampe og tilmelding.",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({

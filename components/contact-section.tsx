@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Mail, Phone, MapPin } from "lucide-react"
 import Link from "next/link"
 
-const boardMembers = [
+const bestyrelsen = [
   {
     role: "Formand",
     name: "Jens Hansen",
@@ -36,10 +36,10 @@ export function ContactSection() {
         </div>
 
         <div className="grid gap-8 lg:grid-cols-2">
-          {/* Board Members */}
+          {/* Bestyrelsen */}
           <div className="space-y-4">
             <h3 className="text-xl font-semibold mb-4">Bestyrelse</h3>
-            {boardMembers.map((member) => (
+            {bestyrelsen.map((member) => (
               <Card key={member.role} className="bg-card">
                 <CardContent className="p-4 sm:p-6">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
@@ -69,7 +69,7 @@ export function ContactSection() {
             ))}
           </div>
 
-          {/* Club Info & Signup */}
+          {/* Tilmelding */}
           <div className="space-y-6">
             <Card className="bg-primary text-primary-foreground" id="tilmelding">
               <CardHeader>

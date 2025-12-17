@@ -1,7 +1,7 @@
 import { Users, Calendar, CreditCard, Clock } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
-const quickInfoItems = [
+const kendetegn = [
   {
     icon: Users,
     title: "400+ medlemmer",
@@ -29,7 +29,7 @@ export function QuickInfo() {
     <section className="py-12 sm:py-16 lg:py-20 bg-card">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
-          {quickInfoItems.map((item) => (
+          {kendetegn.map((item) => (
             <Card key={item.title} className="border-0 shadow-sm bg-background">
               <CardHeader className="pb-2">
                 <item.icon className="h-8 w-8 text-accent mb-2" />
